@@ -1,0 +1,52 @@
+.container{
+    width: 90%;
+    height: 100%;
+    /*background-color: #D4D2D2;*/
+    /*background-image: url("../Img/BG.jpg");*/
+    margin: 0 auto;
+}
+.main{
+    height: 650px;
+    width: 100%;
+    margin-top: 100px;
+}
+.left{
+    /*border: 1px solid red;*/
+    height: 100%;
+    width: 40%;
+    float: left;
+
+}
+.right{
+    float: right;
+    height: 100%;
+    width: 60%;
+    /*border: 1px solid blue;*/
+}
+.img {
+    height: 350px;
+    width: 960px;
+}
+.table_login{
+
+    /*border: 1px solid red;*/
+    margin: 30px auto;
+}
+.review{
+    margin-top: 30px;
+    font-family: 'Syne Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+}
+.review_quan{
+    font-family: 'Syne Tactile', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+.footer{
+    background-color: #3F3F3F;
+    color: #D5D5D5;
+}
+table{
+    width: 90%;
+}
