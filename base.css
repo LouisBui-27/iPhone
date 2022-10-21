@@ -73,6 +73,7 @@ html {
     text-align: center;
     font-size: 3.0rem;
     font-weight: 500;
+    padding: 20px 0;
 }
 
 .second-footer-item > p {
@@ -83,11 +84,12 @@ html {
 
 .footer-logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .footer-logo-item {
     width: 10%;
+    cursor: pointer;
 }
 
 .footer-logo-img {
