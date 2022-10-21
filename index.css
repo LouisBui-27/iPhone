@@ -5,8 +5,12 @@
     /*background-image: url("../Img/BG.jpg");*/
     margin: 0 auto;
 }
+/*.head{*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
 .main{
-    height: 650px;
+    height: 100%;
     width: 100%;
     margin-top: 100px;
 }
@@ -15,7 +19,7 @@
     height: 100%;
     width: 40%;
     float: left;
-
+    margin-top: 100px;
 }
 .right{
     float: right;
@@ -42,10 +46,6 @@
     font-family: 'Syne Tactile', cursive;
     font-size: 15px;
     text-align: center;
-}
-.footer{
-    background-color: #3F3F3F;
-    color: #D5D5D5;
 }
 table{
     width: 90%;
