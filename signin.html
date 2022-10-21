@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMARTPHONE</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <meta name="viewport" content="width=device-width">
+    <!-- Import Boostrap css,js, font awesome here -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="head">
+        <nav>
+            <!-- Navigation -->
+            <div class="navbar-expand-md navbar-light bg-light fixed-top">
+
+                <nav style="float:left;" class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href=" ">SMARTPHONE</a>
+
+                </nav>
+                <div style="float:right; margin-right: 2%;">
+                <p class="btn btn-outline-success my-2 ">Liên hệ: 0865131644</p>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main row">
+        <div class="left col-md-6 col-sm-12 col-12">
+            <div class="container-fluid padding">
+                        <div class="header">
+                            <h5 style="font-size: 30px;font-family: 'Lobster', cursive; text-align: center; ">Đăng ký
+                                tài khoản</h5>
+                        </div>
+                <form name="valid">
+                        <div class="body">
+
+                            <div ng-controller="loginController" class="ng-scope">
+                                <div><span style="color: #E72D2D;" id="spacc"></span></div>
+                                <div class="input-group mb-3">
+                                    <input name="acc" type="text" class="form-control" placeholder="Tài khoản"
+                                           ng-model="user.username">
+                                    <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="zmdi zmdi-account-circle"></i>
+                                    <img src="https://img.icons8.com/fluent-systems-regular/24/000000/username.png"/>
+                                </span>
+                                    </div>
+                                </div>
+                                <div><span style="color: #E72D2D;" id="spemail"></span></div>
+                                <div class="input-group mb-3">
+                                    <input name="email" id="email" type="text" class="form-control" placeholder="Email"
+                                           ng-model="user.email">
+                                    <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="zmdi zmdi-email"></i>
+                                    <img src="https://img.icons8.com/fluent-systems-regular/24/000000/gmail.png"/>
+                                </span>
+                                    </div>
+                                </div>
+                                <div><span style="color: #E72D2D;" id="sppass"></span></div>
+                                <div class="input-group mb-3">
+                                    <input name="pass" id="pass" type="password" class="form-control" placeholder="Mật khẩu">
+                                    <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="zmdi zmdi-lock"></i>
+                                    <img src="https://img.icons8.com/fluent-systems-regular/24/000000/private2.png"/>
+                                </span>
+                                    </div>
+                                </div>
+                                <div><span style="color: #E72D2D;" id="sprepass"></span></div>
+                                <div class="input-group mb-3">
+                                    <input name="repass" id="repass" type="password" class="form-control" placeholder="Xác nhận mật khẩu">
+                                    <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="zmdi zmdi-lock"></i>
+                                    <img src="https://img.icons8.com/fluent-systems-regular/24/000000/data-encryption.png"/>
+                                </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hidden">
+                                <div><span style="color: #E72D2D;" id="spname"></span></div>
+                                <div class="input-group mb-3">
+                                    <input name="name" type="text" id="name" class="form-control" placeholder="Tên đầy đủ">
+                                    <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="zmdi zmdi-info"></i>
+                                    <img src="https://img.icons8.com/fluent-systems-regular/24/000000/myspace.png"/>
+                                </span>
+                                    </div>
+                                </div>
+                                <div><span style="color: #E72D2D;" id="spphone"></span></div>
+                                <div class="input-group mb-3">
+                                    <input name="phone" type="text" class="form-control" placeholder="Điện thoại" id="phone">
+                                    <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="zmdi zmdi-phone"></i>
+                                    <img src="https://img.icons8.com/fluent-systems-regular/24/000000/phone-disconnected.png"/>
+                                </span>
+                                    </div>
+                                </div>
+                                <div><span style="color: #E72D2D;" id="spadd"></span></div>
+                                <div class="input-group mb-3">
+                                    <input name="address" type="text" id="address" class="form-control" placeholder="Địa chỉ">
+                                    <div class="input-group-append">
+                                <span class="input-group-text">
+                                    <i class="zmdi zmdi-info"></i>
+                                    <img src="https://img.icons8.com/fluent-systems-regular/24/000000/user-location.png"/>
+                                </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <input name="box" id="remember_me" type="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty">
+                                <label for="remember_me">Tôi đã đọc <a href="#">điều khoản</a> và đồng ý</label>
+                            </div>
+                            <a href="#" type="button" class="btn btn-primary btn-block" >Đăng ký</a>
+                            <div class="signin_with mt-3">
+                                <a href="login.html" class="link btn btn-success btn-block">Bạn đã có tài khoản
+                                    rồi?</a>
+                            </div>
+
+                        </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="right col-md-6 col-sm-12 col-12">
+            <div style="height: 20%; width: 100%; margin-top: -20px;">
+                <p class="review">Bring the best feelings</p>
+                <p class="review_quan">Welcome to our shop, you can experience plenty of high-tech devices with reasonable in price,  well quality and reliable.</p>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="../Img/1.jpg" class="d-block w-100 img" alt="img1">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../Img/11.png" class="d-block w-100 img" alt="img2">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../Img/17.png" class="d-block w-100 img" alt="img3">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../Img/4.jpg" class="d-block w-100 img" alt="img4">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../Img/5.jpg" class="d-block w-100 img" alt="img5">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../Img/6.jpg" class="d-block w-100 img" alt="img6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
